@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@id/navigation_home">
 
     <fragment
         android:id="@+id/navigation_home"
@@ -32,8 +32,11 @@
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
     <fragment
-        android:id="@+id/restaurantList"
-        android:name="c.adricals.restaurantadmin.RestaurantList"
-        android:label="restaurant_list"
-        tools:layout="@layout/restaurant_item" />
+        android:id="@+id/menuFragment"
+        android:name="c.adricals.restaurantadmin.ui.restaurant.MenuFragment"
+        android:label="MenuFragment" />
+    <fragment
+        android:id="@+id/addMenuFragment"
+        android:name="c.adricals.restaurantadmin.ui.restaurant.AddMenuFragment"
+        android:label="AddMenuFragment" />
 </navigation>

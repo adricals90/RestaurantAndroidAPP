@@ -13,7 +13,6 @@ public class RestaurantViewModel extends ViewModel {
         mText.setValue("MACDONALD'S");
     }
 
-
     public LiveData<String> getText() {
         return mText;
     }

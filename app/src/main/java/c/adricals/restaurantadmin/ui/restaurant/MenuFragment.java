@@ -48,7 +48,6 @@ public class MenuFragment extends Fragment {
         }
 
 
-
         initRecyclerView(root, dishes);
 
 

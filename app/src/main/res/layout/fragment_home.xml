@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
 
-    <include layout="@layout/restaurant_activity"/>
+    <include layout="@layout/fragment_restaurant_list"/>
 
 
 
